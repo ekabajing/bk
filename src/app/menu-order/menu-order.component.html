@@ -12,15 +12,15 @@
                         <ng-template ngbNavContent>
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="card">
+                                    <div class="card" *ngFor="let menu of menuList">
                                         <div class="d-flex">
                                             <div class="keterangan">
-                                                <h4 class="titles">ANGRY Fries</h4>
-                                                <p class="description">Kentang goreng gurih dan renyah dengan saus angry yang pedasnya nagih.</p>
-                                                <img src="../../assets/img/menus/1.jpg" class="card-img-top" alt="...">
+                                                <h4 class="titles">{{menu.name}}</h4>
+                                                <p class="description">{{menu.description}}</p>
+                                                <img [src] ="menu.image" class="card-img-top" alt="...">
                                             </div>
                                             <div class="harga-order">
-                                                <p class="harga">Rp. 15,000</p>
+                                                <p class="harga">{{menu.harga}}</p>
                                                 <div class="action-wrapper">
                                                     <div class="quantity-wrapper">
                                                         <button type="button" class="button-min" id="button-min">
@@ -32,7 +32,7 @@
                                                             <i class="fa-solid fa-plus"></i>
                                                         </button>
                                                     </div>
-                                                    <button id="add-to-cart" type="button" class="button button-orange">Add To Cart</button>
+                                                    <button id="add-to-cart" type="button" class="button button-orange" (click)="addToOrder(menu)">Add To Cart</button>
                                                 </div>
                                             </div>
                                         </div>
