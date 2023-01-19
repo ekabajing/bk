@@ -1,0 +1,124 @@
+<div class="menu-order">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
+                    <form class="d-flex search" role="search">
+                        <input class="form-control" type="search" placeholder="Search menu..." aria-label="Search">
+                        <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <li ngbNavItem="one">
+                        <a ngbNavLink>Angry Menu [ Limited Time ]</a>
+                        <ng-template ngbNavContent>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="d-flex">
+                                            <div class="keterangan">
+                                                <h4 class="titles">ANGRY Fries</h4>
+                                                <p class="description">Kentang goreng gurih dan renyah dengan saus angry yang pedasnya nagih.</p>
+                                                <img src="../../assets/img/menus/1.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="harga-order">
+                                                <p class="harga">Rp. 15,000</p>
+                                                <div class="action-wrapper">
+                                                    <div class="quantity-wrapper">
+                                                        <button type="button" class="button-min" id="button-min">
+                                                            <i class="fa-solid fa-minus"></i>
+                                                        </button>
+                                                        <input id="variant-code-input" type="hidden" class="input-qty" value="" maxlength="2">
+                                                        <input id="quantity-input" type="text" class="input-qty" value="1" maxlength="2" disabled="">
+                                                        <button type="button" class="button-add" id="button-add">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+                                                    </div>
+                                                    <button id="add-to-cart" type="button" class="button button-orange">Add To Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="two">
+                        <a ngbNavLink>Bk App Exclusive</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="three">
+                        <a ngbNavLink>Cheese Burger Favorit</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="four">
+                        <a ngbNavLink>Cheese Whopper®</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="five">
+                        <a ngbNavLink>Gold Collection</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="six">
+                        <a ngbNavLink>King's Chicken</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="seven">
+                        <a ngbNavLink>Kids Meal</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="eight">
+                        <a ngbNavLink>Side & Dessert [ Menu Bokek ]</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="nine">
+                        <a ngbNavLink>Beverages</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="ten">
+                        <a ngbNavLink>Kupon Januari</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <span>* Harga belum termasuk pajak</span>
+                </ul>
+            
+                <div [ngbNavOutlet]="nav" class="ms-4"></div>
+            </div>
+        </div>
+    </div>
+</div>
+

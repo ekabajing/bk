@@ -1,0 +1,23 @@
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ }
+
+ .carousel-control-prev-icon {
+    left: 2%;
+    background-image: url("https://bkdelivery.co.id/static/website/img/slider-arrow-left.png?4557464df5fe");
+    background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    color: transparent;
+ }
+
+ .carousel-control-next-icon {
+    left: 2%;
+    background-image: url("https://bkdelivery.co.id/static/website/img/slider-arrow-right.png?4557464df5fe");
+    background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    color: transparent;
+ }

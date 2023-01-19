@@ -1,0 +1,201 @@
+<div class="menus">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
+                    <form class="d-flex search" role="search">
+                        <input class="form-control" type="search" placeholder="Search menu..." aria-label="Search">
+                        <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <li ngbNavItem="one">
+                        <a ngbNavLink>Angry Menu [ Limited Time ]</a>
+                        <ng-template ngbNavContent>
+                            <div class="row ">
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">ANGRY Fries</h5>
+                                                <p class="price">Rp. 15,000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Strawberry Sunrise</h5>
+                                                <p class="price">Rp. 15,000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">1 Pc ANGRY Chicken</h5>
+                                                <p class="price">Rp. 23,636</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Paket 1 Pc ANGRY Chicken</h5>
+                                                <p class="price">Rp. 40,000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/5.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">2 Pcs ANGRY Chicken</h5>
+                                                <p class="price">Rp. 45,000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/6.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Paket 2 Pcs ANGRY Chicken</h5>
+                                                <p class="price">Rp. 55,000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/7.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">ANGRY Whopper® Jr</h5>
+                                                <p class="price">Rp. 63,636</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/8.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">King Box ANGRY Whopper® Jr</h5>
+                                                <p class="price">Rp. 68,636</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="two">
+                        <a ngbNavLink>Bk App Exclusive</a>
+                        <ng-template ngbNavContent>
+                            <div class="row ">
+                                <div class="col">
+                                    <a routerLink="/menu-order">
+                                        <div class="card">
+                                            <img src="../../assets/img/menus/9.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">HOKI ANG(ry) PAO</h5>
+                                                <p class="price">Rp. 88,182</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="three">
+                        <a ngbNavLink>Cheese Burger Favorit</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="four">
+                        <a ngbNavLink>Cheese Whopper®</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="five">
+                        <a ngbNavLink>Gold Collection</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="six">
+                        <a ngbNavLink>King's Chicken</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="seven">
+                        <a ngbNavLink>Kids Meal</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="eight">
+                        <a ngbNavLink>Side & Dessert [ Menu Bokek ]</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="nine">
+                        <a ngbNavLink>Beverages</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="ten">
+                        <a ngbNavLink>Kupon Januari</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Null
+                            </p>
+                        </ng-template>
+                    </li>
+                    <span>* Harga belum termasuk pajak</span>
+                </ul>
+            
+                <div [ngbNavOutlet]="nav" class="ms-4"></div>
+            </div>
+        </div>
+    </div>
+</div>
+

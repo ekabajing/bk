@@ -1,0 +1,91 @@
+.menus {
+    background: url(../../assets/img/bg-content.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    padding-top: 85px;
+    min-height: 100vh;
+}
+
+.menus .nav-pills .nav-link {
+    font-size: 18px;
+    background-color: #fbe6d6;
+    color: #502314;
+    font-family: "Flame-Regular";
+    padding: 7px 20px 9px;
+    text-transform: capitalize;
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.menus .nav-pills .nav-link.active {
+    background-color: #faaf18;
+}
+
+.menus .search {
+    box-shadow: 1px 1px 8px -2px rgb(107 107 107 / 30%);
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.menus .search input {
+    border-right: none;
+    font: 15px/20px "Flame-Sans";
+    padding: 12px 15px 12px 17px;
+    border-radius: 10px 0 0 10px;
+}
+
+.menus .search .btn-search {
+    border-radius: 0 10px 10px 0;
+    background-color: #ed7801;
+    color: #fff;
+}
+
+.menus .card {
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding: 20px 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+}
+
+.menus .card-body {
+    padding: 10px 0;
+}
+
+.menus .card-title {
+    font-family: "Flame-Regular";
+    text-transform: capitalize;
+    font-size: 23px;
+    color: #8b542f;
+    text-align: left;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.menus .price {
+    font-size: 17px;
+    font-family: "Flame-Regular";
+    color: #8b542f;
+    text-align: left;
+}
+
+.menus span {
+    font-size: 10px;
+    color: #919191;
+    margin-left: 7px;
+    font-family: "Flame-Sans";
+    line-height: 1.6;
+    text-align: left;
+    margin-top: 10px;
+}

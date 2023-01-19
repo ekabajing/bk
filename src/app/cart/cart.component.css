@@ -1,0 +1,24 @@
+.cart {
+    padding: 24px 16px 24px 13px;
+    background-color: #ed7801;
+    margin-left: 20px;
+}
+
+.cart i {
+    font-size: 20px;
+}
+
+.badge.red {
+    background-color: #ff0000;
+}
+
+.badge {
+    position: absolute;
+    margin: -10px 0 0 15px;
+    color: #fff;
+    font-family: "Barlow";
+    padding: 1px 7px 2px 7px;
+    border-radius: 10px;
+    line-height: normal;
+    font-size: 14px;
+}

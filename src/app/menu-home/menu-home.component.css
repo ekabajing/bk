@@ -1,0 +1,64 @@
+.our-menu-home {
+    background: url(../../assets/img/bg-content.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    padding-top: 85px;
+}
+
+.menu-home-title h3{
+    font-size: 32px;
+    font-family: "Flame-Bold";
+    color: #8b542f;
+    font-weight: normal;
+    font-family: "Flame-Bold";
+    text-align: center;
+    margin: 30px 0;
+}
+
+.home-menu-card {
+    padding: 0 0 100px 0;
+}
+
+.home-menu-card .card {
+    padding: 20px 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+    border: none;
+}
+
+.home-menu-card .card-body {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.home-menu-card .card-body h5 {
+    text-align: left;
+    font-size: 21px;
+    font-family: "Flame-Bold";
+    color: #8b542f;
+    font-weight: normal;
+    width: 50%;
+}
+
+.home-menu-card .card-body a.btn-order {
+    float: right;
+    font: 16px/22px "Flame-Regular";
+    padding: 10px 0;
+    background-color: #ed7801;
+    width: 55%;
+    height: 50%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-menu-card .justify-content-md-center {
+    margin-bottom: 30px;
+}

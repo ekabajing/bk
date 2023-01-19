@@ -1,0 +1,69 @@
+.footer {
+    height: 125px;
+    width: 100%;
+    background-color: #2d2d2d;
+    color: #fff;
+    z-index: 100;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+.footer h3 {
+    font-family: "Flame-Regular";
+    font-size: 20px;
+}
+
+.contact .phone {
+    font-size: 18px;
+    font-family: "Flame-Regular";
+    margin-right: 20px;
+}
+
+.contact .phone i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.contact .mail {
+    font-size: 15px;
+    font-family: "Barlow";
+    margin-right: 20px;
+}
+
+.contact .mail i {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.social i {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.footer .terms {
+    color: #919191;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Flame-Sans";
+    line-height: 1.6;
+}
+
+.footer .terms .right-line {
+    border-right: 1px solid #8a8a8a;
+    padding-right: 12px;
+    color: #919191;
+    font-size: 12px;
+}
+
+.footer .right-line a {
+    color: #919191;
+}
+
+.footer .right-line a:hover {
+    color: #fff;
+}
+
+.footer .terms span + span {
+    margin-left: 10px;
+}
